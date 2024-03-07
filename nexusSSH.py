@@ -45,7 +45,7 @@ tpW/zW+EK1/Kl4uJAAAADHJvb3RAcXMyODIyMQECAwQFBg==
 '''
 
 
-HOST_KEY = paramiko.RSAKey(filename='/home/samt/SSH-Honeypot/basic_ssh_honeypot/private.key')
+HOST_KEY = paramiko.RSAKey(filename='/home/samt/SSH-Honeypot/private.key')
 SSH_BANNER = "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1"
 
 UP_KEY = '\x1b[A'.encode()
